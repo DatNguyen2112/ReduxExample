@@ -1,0 +1,45 @@
+@import "../../common/colors.scss";
+
+.movie__detail{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    color: $font-primary;
+    font-weight: 400;
+}
+.movie__title{
+    font-size: 30px;
+    color: $font-primary;
+}
+.movie__rating{
+    padding-left: 3px;
+    margin-top: 20px;
+    color: $font-secondary;
+    display: flex;
+    span {
+        margin-right: 20px;
+    }
+}
+.movie__story{
+    margin-top: 20px;
+    h2 {
+        width: 50%;
+        font-size: 30x;
+    }
+}
+.movie__info{
+    margin-top: 20px;
+    a {
+        color: $font-primary;
+        margin-top: 10px;
+    }
+}
+.movieRow__right{
+    img{
+        width: 100%;
+    }
+}
+
+.fa-solid {
+    margin-left: 5px;
+}

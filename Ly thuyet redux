@@ -1,0 +1,6 @@
+Structure of Redux folder
+
+1> Create a folder name movies : This file will receive a createSlice actions 
+2> Create a file name store : This file will create a configureStore and receive a createSlice actions from folder movies
+3> Then we use useDispatch to dispatch a actions from folder name movie 
+4> End use useSelector to get a data from store where we receive in file store.js
